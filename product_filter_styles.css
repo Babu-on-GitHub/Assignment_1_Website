@@ -1,0 +1,75 @@
+.filter-form-containter{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.filter-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap:30px;
+    width: 90%;
+    font-size: 20px;
+}
+
+.options-box{
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    width: 100%;
+    padding: 5px 20px;
+    background-color: rgb(202, 202, 202);
+}
+
+
+.form-buttons-box{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form-buttons-box input{
+    font-size: 30px;
+    padding: 10px 70px;
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-buttons-box input[type="submit"]
+{
+    background-color:rgb(87, 87, 105);
+    color: white;
+}
+.form-buttons-box input[type="reset"]
+{
+    background-color: rgb(219, 151, 128);
+    color:black;
+}
+
+.form-buttons-box input:hover{
+    font-size: 30px;
+    padding: 10px 70px;
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+    opacity:0.8;
+}
+
+.options-box input,
+.options-box button,
+.options-box fieldset,
+.options-box legend,
+.options-box select,
+.options-box textarea {
+  background-color: transparent;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+}

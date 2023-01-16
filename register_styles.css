@@ -1,0 +1,57 @@
+.initial-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.initial-logo img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+
+}
+.register-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    top: 175px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .register-box{
+    display: flex;
+    width: 750px;
+    height: 850px;
+    background-color: rgb(202, 202, 202);
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .empty-space{
+    display:flex;
+    width:100%;
+    height: 80px;
+  }
+
+  #register-password, #confirm-password, #register-username ,#register-name, #register-description, #register-email, #register-address{
+    display: flex;
+    width: 100%;
+    height: 35px;
+  }
+
+
+  .register-row{
+    display:flex;
+    width: 50%;
+    height: 60px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  #register-city, #register-postcode, #register-sex, #register-language{
+    width: 40%;
+    height: 35px;
+  }
+  #register-submit{
+    justify-self: center;
+    padding: 20px;
+  }

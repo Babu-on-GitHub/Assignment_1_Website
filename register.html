@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="404page.html">
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Login">
+        <meta name="author" content="Cristian Afloroaei">
+        <link rel="stylesheet" href="main_styles.css">
+        <link rel="stylesheet" href="register_styles.css">
+    </head>
+    <body>
+        <div class="initial-logo">
+            <img src="DANUBE-logos/DANUBE-logos_transparent.png">
+        </div>
+        <form>
+            <div class="register-container">
+                <div class="register-box">
+                    <div class="empty-space"></div>
+                    <div class="register-row">
+                        <input type="email" name="register-email" id="register-email" placeholder="email" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="text" name="register-username" id="register-username" placeholder="username" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="text" name="register-name" id="register-name" placeholder="name" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="password" name="register-password" id="register-password" placeholder="password" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="confirm password" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="text" name="register-address" id="register-address" placeholder="address" required>
+                    </div>
+                    <div class="register-row">
+                        <input type="text" name="register-city" id="register-city" placeholder="city" required>
+                        <input type="text" name="register-postcode" id="register-postcode" placeholder="postcode / zipcode" required>
+                    </div>
+                    <div class="register-row">
+                        <select id="register-sex" required>
+                            <option value="" disabled selected>Select sex</option> 
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+
+                        </select>
+                        <input type="text" name="register-language" id="register-language" placeholder="language">
+                    </div>
+                    <div class="register-row">
+                        <textarea type="text" id="register-description" placeholder="About me.." required></textarea>
+                    </div>
+                    <div class="register-row">
+                        <p>I want to be a:</p>
+                    </div>
+                    <div class="register-row">
+                        <div>
+                            <input type="radio" id="register-customer" name="user-type" value="Customer">
+                            <label for="register-customer">Customer</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="register-vendor" name="user-type" value="Vendor">
+                            <label for="register-vendor">Vendor</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" id="register-submit" value="Register">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

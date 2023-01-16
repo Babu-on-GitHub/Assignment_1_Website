@@ -1,0 +1,55 @@
+.sellpage-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    align-items:center;
+    justify-content: center;
+  }
+  .slb{
+    display:flex;
+    border-radius: 75px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    min-height: 600px;
+    background-color:rgb(202, 202, 202);
+  }
+  .slbrow{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #itemname, #quantity, #price, #category{
+    padding: 15px;
+    min-width: 250px;
+  }
+
+  #description{
+    padding: 15px;
+    width: 100%;
+    height: 125px;
+  }
+  #add-photo-button {
+    
+    width: 40%;
+    height: 50px;
+  }
+  .photo-button label, .photo-button input{
+    padding:20px 20px 20px 20px;
+    width: 30%;
+    height:25px;
+    background-color:rgb(255, 255, 255);
+  }
+
+  .photo-button label:hover{
+    opacity: 0.8;
+  }
+
+  #submit-button{
+    padding:12px;
+    width:30%;
+  }
+  
